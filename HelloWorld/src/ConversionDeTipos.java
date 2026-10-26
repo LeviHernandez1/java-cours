@@ -17,6 +17,7 @@ public class ConversionDeTipos {
         System.out.println("logicoBoolean = " + logicoBoolean);
 
         // ***** Converciones de tipo Primitivos a String *****
+
         int otroNumeroInt = 100;
         System.out.println("otroNumeroInt = " + otroNumeroInt);
         
@@ -33,6 +34,24 @@ public class ConversionDeTipos {
         otroRealStr = String.valueOf(1.23456e2f);
         System.out.println("otroRealStr = " + otroRealStr);
 
-        
+        // ***** Converciones de tipo Primitivos a Primitivos *****
+
+        int i = 32767;
+        // Por casting o cast para formsar la convercion
+        short s = (short)i;
+        System.out.println("s = " + s);
+        long l = i;
+        System.out.println("l = " + l);
+        System.out.println(Short.MAX_VALUE);
+
+        // No podemos castear un entero a boolean
+        char b = (char)i;
+        System.out.println("b = " + b);
+        float f = (float)i;
+        System.out.println("f = " + f);
+
+        /* En tipos primitivos solo podemos hacer el cast a tipos númericos incluyendo
+            los números reales, float y el double y el char.
+         */
     }
 }
