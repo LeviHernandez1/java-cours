@@ -19,7 +19,12 @@ public class T1DetalleDeFactura {
         var totalBruto = insumo1D + insumo2D;
         double impuesto = totalBruto * 0.19d;
         double totalNeto = totalBruto + impuesto;
-
-        System.out.println("Factura: " + nombreFactura + "\nTotal bruto :  \t" + totalBruto + ",\nImpuesto del 19%: \t" + impuesto + "\nTotal a pagar:  \t" + totalNeto);
+        String detalle =
+            "Factura: " + nombreFactura +
+            "\nTotal bruto :\t" + totalBruto +
+            "\nImpuesto del 19% :\t" + impuesto +
+            "\nTotal a pagar :\t" + totalNeto
+        ;
+        System.out.println(detalle);
     }
 }
