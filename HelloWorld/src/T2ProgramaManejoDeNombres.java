@@ -48,7 +48,7 @@ public class ProgramaManejoDeNombres {
         System.out.println("Ingrese un nombre de un familiar:");
         String nombreA = scanner.nextLine();
         String nombreA2 = nombreA.toUpperCase().charAt(1) + "." + nombreA.substring(nombreA.length()-2);
-                
+
         System.out.println("Ingrese otro nombre de un familiar:");
         String nombreB = scanner.nextLine();
         String nombreB2 = nombreB.toUpperCase().charAt(1) + "." + nombreB.substring(nombreB.length()-2);
