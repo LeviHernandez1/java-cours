@@ -33,6 +33,6 @@ public class OperadoresRelacionales {
         boolean b9 = l <= k;
         System.out.println("b9 = " + b9);
 
-        
+
     }
 }
